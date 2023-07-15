@@ -1,0 +1,81 @@
+.icon {
+    font-size: 7rem;
+}
+
+.time {
+    font-size: 8rem;
+}
+
+.text-smoke {
+    text-shadow: 1px 1px 10px whitesmoke;
+}
+
+
+.start,
+.resume {
+    background-color: rgb(128, 206, 11);
+}
+
+.stop {
+    background-color: rgb(187, 36, 36);
+}
+
+.reset,
+.set {
+    background-color: rgb(56, 179, 228);
+}
+
+.action-buttons-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.action-btn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    text-shadow: 0 0 2px black;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    opacity: .9;
+}
+
+.action-btn:active {
+    transform: scale(.9);
+    transition: .2s ease;
+    opacity: 1;
+}
+
+
+@media (max-width: 900px) {
+
+    .icon {
+        font-size: 4rem;
+    }
+
+    .time {
+        font-size: 5rem;
+    }
+
+    .text-smoke {
+        text-shadow: 1px 1px 6px whitesmoke;
+    }
+
+    .action-buttons-wrapper {
+        gap: 10px;
+    }
+
+    .action-btn {
+        font-size: .9rem;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+}
